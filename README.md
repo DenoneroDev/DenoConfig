@@ -20,18 +20,18 @@ config.prettify();
 ### Parse
 config.set(String key, Object value);
 > Example key: test || test.test2
-> Example value: "Test" or 1 or Map or List
+> Example value: "Test" || 1 || Map || List
 
-### Fetch somthing from the config
+### Fetch
 config.get(String key);
 > Example key: test || test.test2
 
-### Remove somthing from the config
+### Remove
 config.remove(String key);
 > Example key: test || test.test2
 
-### Clear config file
+### Clear
 config.clear();
 
-### Save config file
+### Save
 config.save();
